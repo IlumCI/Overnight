@@ -1,7 +1,5 @@
-# Kali Multitool - Documentation
-
 ## Overview
-The **Kali Multitool** is an automated reconnaissance and vulnerability assessment script designed for ethical hacking and Capture The Flag (CTF) challenges. It integrates various Kali Linux tools to perform tasks such as subdomain enumeration, web probing, directory brute-forcing, API fuzzing, parameter discovery, JWT attacks, GraphQL exploitation, and SSRF testing.
+The **Overnight recon tool** is an automated reconnaissance and vulnerability assessment script designed for ethical hacking and Capture The Flag (CTF) challenges. It integrates various Kali Linux tools to perform tasks such as subdomain enumeration, web probing, directory brute-forcing, API fuzzing, parameter discovery, JWT attacks, GraphQL exploitation, and SSRF testing.
 
 ## Features
 - **Subdomain Enumeration**: Uses `subfinder` to identify subdomains of a target.
@@ -93,12 +91,12 @@ To change HTTP response codes to filter (`-fc`, `-mc`), modify their values.
 ## Running the Script
 Ensure you have **Python 3** installed and execute:
 ```sh
-chmod +x kali_multitool.py
-./kali_multitool.py
+chmod +x ov.py
+./ov.py
 ```
 If encountering permission issues, use:
 ```sh
-python3 kali_multitool.py
+python3 ov.py
 ```
 
 ### Dependencies
